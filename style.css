@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ///////////// nav 1/////// */
+.nav1{
+    /* margin-top: 10px; */
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: red;
+    color: white;
+
+}
+.nav1 ul li{
+    display: inline;
+    cursor: pointer;
+}
+.nav1 ul li a{
+    text-decoration: none;
+    padding: 5px;
+}
+/* nav 2 */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background:url("./img/artur-rutkowski-GdTLaWamFHw-unsplash.jpg") no-repeat; */
+    width: 100%;
+    height: 30px;
+    padding: 20px 0 20px 0px;   
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+#check{
+    display: none;
+}
+.navbar ul li{
+    display: inline;
+    position: relative;
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+}
+a:hover{
+    color: aqua;
+}
+label img {
+    font-size: 24px;
+}
+.checkbtn{
+    color: white;
+    font-size: 34px;
+    cursor: pointer;
+    display: none;
+}
+/* drop down */
+ul li ul.dropdown li{
+    display: block;
+    width: 180px;
+}
+.dropdown{
+    /* height: 200px; */
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    display: none;
+    background: gray;
+}
+
+ul li ul.dropdown li a{
+    width: 100%;
+}
+ul.dropdown li a:hover{
+    /* background: #112c66; */
+}
+ul li ul.dropdown li:hover{
+    background: rebeccapurple;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+/* context/'' */
+.context{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 20px;
+} 
+.training{
+    width:60%;
+    background: red;
+    border-radius: 8px;
+    padding: 20px 40px 20px 40px;
+    color: white;
+}
+.training h2{
+    font-size: 42px;
+}
+.training p{
+    font-size: 15px;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+}
+.btn2{
+    border: 1px solid white;
+    background: red;
+    border-radius: 5px;
+    padding: 7px 10px 7px 10px;
+    color: white;
+}
+.btn1{
+    background: white;
+    color: red;
+    border-radius: 5px;
+    padding: 7px 10px 7px 10px;
+    border: none;
+}
+.modes1{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+    color: white;
+}
+.modes1 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    padding-left: 12px;
+}
+.modes1 li img{
+    padding-left: 20px;
+    width: 20px;
+}
+/* Latest .offers */
+.offers{
+    width:15%;
+    background: red;
+    border-radius: 8px;
+    padding: 11px;
+}
+.offers p{
+    font-size: 12px;
+    color: white;
+}
+/* Corvit offers///////// */
+.corvitoffers{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 20px;
+}
+/* /////// CEO/////// */
+.ceo{
+    display: flex;
+    padding: 20px 40px 20px 40px;
+    justify-content: space-between;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+}
+/* ///////// corporate cards */
+.corporate{
+    text-align: center;
+    background: linear-gradient(45deg, blue, purple, black) ;
+    padding: 20px;
+    height: 100vh;
+}
+.cards{
+    display: flex;
+    /* flex: 4; */
+    text-align: center;
+    justify-content: center;
+    gap: 23px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.servicecontent:hover{
+    font-size: 20px;
+}
+.servicecontent{
+    width: 27%;
+    border: 1px solid #eee;
+    text-align: center;
+    border-radius: 20px 0 20px 0;
+    position: relative;
+    z-index: 1;
+    transition: all ease .3s;
+    overflow: hidden;
+     /* flex: 0 0 30.33%; */
+     box-sizing: border-box;
+}
+.servicetext h1{
+    font-size: 20px;
+    padding-top: 10px;
+    color: white;
+}
+.servicetext p{
+    font-size: 12px;
+    padding-top: 5px;
+    color: white;
+}
+.servicetext p summary{
+    font-size: 12px;
+    padding-top: 5px;
+    color: white;
+}
+.servicetext  .contentbtn a{
+    text-decoration: none;
+    padding: 8px;
+    background: red;
+    border-radius: 4px;
+    color: white;
+}
+.contentbtn{
+    padding: 20px 0 20px 0;
+    
+}
+/* About us//////////// */
+.Aboutus{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+.about button{
+    padding: 10px;
+    border: none;
+    background: red;
+    color: white;
+}
+/* ///////// Form ///////////// */
+.inquiry{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.form label input{
+    border: none;
+    border-bottom: 1px solid red;
+    padding: 10px;
+    width: 39%;
+    outline: none;
+}
+.form  form label{
+ top: 20px;
+
+}
+.form1{
+    padding-top: 30px;
+}
+.form form {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.form textarea {
+    border: none;
+    border-bottom: 1px solid red;
+    outline: none;
+}
+@media (max-width: 820px) {
+    .navbar{
+        text-align: center;
+    }
+    label.logo{
+        font-size: 20px;
+        /* padding-left: 50px; */
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    .ceo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* .cards{
+        display: flex;
+        flex-wrap: nowrap;
+    } */
+}
+@media (max-width:850px){
+    .checkbtn{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        background: gray;
+        left: -100%;
+        top: 110px;
+        padding-top: 20px;
+        transition: all .5s;
+        overflow: scroll;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px 0;
+    }
+    nav ul li a{
+        font-size: 20px;
+        display: block;
+
+    }
+    a:hover, a:active{
+        background: none;
+        color: aquamarine;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+
+/* /////////// footer////////////// */
+
+footer{
+    background: #333;
+    color: white;
+    margin-top: 3%;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.footermain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3% 7%;
+}
+
+.footerinfo{
+    width: 25%;
+    border-right: 1px solid white;
+    padding-left: 20px;
+
+
+}
+
+.footerQlinks{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid white;
+    padding-left: 20px;
+    gap: 20px;
+
+}
+.footerpara a img{
+    color: white;
+}
+.footermap{
+    display: block;
+    width: 25%;
+    border-right: 1px solid white;
+    padding-left: 20px;
+
+}
+.footercont{
+    width: 25%;
+    border-right: 1px solid white;
+    padding-left: 20px;
+    gap: 30px;
+
+}
+.footerend{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    color: #333;  
+    margin: 0 7%;
+    margin-top: 2%;
+    padding: 7px;
+    border-radius: 7px;
+}
+.footerendp{
+    text-align: center;
+    padding-top: 18px;
+}
+/* //////////////////// */
+/* ////////// background imgages  /////////// */
+.slider_background{
+    background-color: brown;
+    background-size: cover; /* This stretches the background image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-position: center; /* Centers the background image */
+    background-position: fixed;
+    height: 80vh;
+    padding-top: 5%;
+}
+
+.Slider{
+    width: 100%;
+    max-width:960px;
+    margin: auto;
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.Slider_img{
+    box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.myslide{
+    display: none;
+    width: 100%;
+    border-radius: 8px;
+}

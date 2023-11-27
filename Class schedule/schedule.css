@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.schedule{
+    background-color: rgba(228, 45, 45, 0.856);
+    color: white;
+    display: flex;
+    font-size: 2.2rem;
+    padding: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.image{
+        margin-top: 30px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%
+}
